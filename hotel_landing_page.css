@@ -94,6 +94,8 @@ form div{
 input{
     width: 150px;
     padding: 0 5px;
+    border: 1px solid black;
+    background-color: white;
 }
 #about{
     display: flex;
