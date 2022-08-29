@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hotel_landing_page.css">
+    <link rel="stylesheet" href="hotel_landing_page_media.css">
+    <script src="https://kit.fontawesome.com/3272fdc466.js" crossorigin="anonymous"></script>
+    <title>Haven</title>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <div class="icon">
+                <i class="fa-solid fa-hotel fa-2xl"></i>
+            </div>
+        </div>
+        <nav>
+            <ul class="header_ul">
+                <li><a href="#home">Home</a> </li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#virtual_tour">Virtual tour</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="intro" id="home">
+        <div class="intro_text">
+            <h1>WELCOME TO HAVEN</h1>
+            <p><em>You have a destination, we have a place</em></p>
+        </div>
+        <form action="process.php">
+            <div class="form_info">
+                <div>
+                    <label for="arrival_date" class="form_label">Arrival Date</label><br>
+                    <input type="date" name="arrival_date" id="arrival_date">
+                </div>
+                <div>
+                    <label for="departure_date">Departure date</label> <br>
+                    <input type="date" name="departure_date" id="departure_date">
+                </div>
+                <div>
+                    <label for="room_suite">
+                        <select name="room_suite" id="room_suite">
+                            <option value="room">Rooms</option>
+                            <option value="suite">Suites</option>
+                        </select>
+                    </label> <br>
+                    <input type="number" name="room_suite" id="room_suite">
+                </div>
+                <div>
+                    <label for="adults">Adults</label> <br>
+                    <input type="number" name="adults" id="adults">
+                </div>
+                <div>
+                    <label for="children">Children</label><br>
+                    <input type="number" name="children" id="children">
+                </div>
+            </div>
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+    <div class="services">
+        <div class="service">
+            <div class="icon">
+             <i class="fa-solid fa-wifi fa-2xl"></i>
+            </div>
+            <h3>Free wifi</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus porro soluta libero mollitia animi odio quos hic!</p>
+        </div>
+        <div class="service">
+            <div class="icon">
+             <i class="fa-solid fa-person-swimming fa-2xl"></i>
+            </div>
+            <h3>Swimming pool</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quasi iste adipisci quo hic nisi.</p>
+        </div>
+        <div class="service">
+            <div class="icon">
+                <i class="fa-solid fa-car fa-2xl"></i>
+            </div>
+            <h3>Car garage</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae accusamus eius sint ea?</p>
+        </div>
+        <div class="service">
+            <div class="icon">
+             <i class="fa-solid fa-utensils fa-2xl"></i>
+            </div>
+            <h3>Restaurant</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur voluptas modi possimus optio nesciunt dolorem quasi minus?</p>
+        </div>
+    </div>
+    <div id="about">
+        <div class="about_image">
+            <img src="/pictures/Poolside.jpg" alt="Hotel photo">
+        </div>
+        <div class="about_text">
+            <div class="about_texttext">
+                <h2>Discover our <h2 class="plum">History</h2></h2>
+                <p>Built in 1823 for the comfort of travellers and tourists, Haven has given shelter and comfort to over 20,000 people Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque nam veniam cupiditate corporis illo quod blanditiis.</p>
+                <button><a href="#">About Us</a></button>
+            </div>
+        </div>
+    </div>
+    <div id="virtual_tour">
+        <div class="tour">
+            <div class="tour_photo room"></div>
+            <div class="tour_text text_left">
+                <h2>Enjoy Some You-Time</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vero magni veniam, quis aliquam necessitatibus!</p>
+                <button><a href="#">Explore</a></button>
+            </div>
+        </div>
+        <div class="tour">
+            <div class="tour_photo dining" ></div>
+            <div class="tour_text text_right">
+                <h2>Dine With Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa officiis aliquam ut dolores a ipsum!</p>
+                <button><a href="#">Explore</a></button>
+            </div>
+        </div>
+        <div class="tour">
+            <div class="tour_photo bottom_photo spa" ></div>
+            <div class="tour_text text_left bottom_text">
+                <h2>Relax With Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus animi nihil, a vitae maiores libero.</p>
+                <button><a href="#">Explore</a></button>
+            </div>
+        </div>
+        <div class="tour bottom_tour">
+            <div class="tour_photo bottom_photo gym"></div>
+            <div class="tour_text text_right bottom_text">
+                <h2>Exercise With Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus eos, voluptates quia fugiat aliquid sunt.</p>
+                <button><a href="#">Explore</a></button>
+            </div>
+        </div>
+    </div>
+    <div id="blog">
+        <div class="blog_text">
+            <h2>Our customers' <h2 class="plum">Reviews</h2></h2>
+        </div>
+        <div class="reviews">
+            <div class="review review_right">
+                <img src="/pictures/Underwater rooms.jpg" alt=""> <br>
+                <h3>Dave Ratts</h3>
+                <h4 class="plum">Traveler</h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed odit consequatur excepturi tempora similique quas at perferendis harum amet velit.</div>
+            <div class="review review_right">
+                <img src="/pictures/Header.jpg" alt=""> <br>
+                <h3>Yura Gwario</h3>
+                <h4 class="plum">Traveler</h4>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident dolore explicabo, ab perferendis, perspiciatis magnam animi delectus veritatis deleniti ipsum rem incidunt quis earum. Saepe.</div>
+            <div class="review">
+                <img src="/pictures/Casual dining.jpg" alt="picture"> <br>
+                <h3>Sarah Palmat</h3>
+                <h4 class="plum">Traveler</h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea neque blanditiis eligendi. Beatae voluptatem assumenda quibusdam sit eligendi magni architecto! Quod, ipsa optio?</div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="banner">
+            <div class="banner_text">
+                <h2>Relax and enjoy your <h2 class="plum">Holiday</h2></h2>
+            </div>
+            <button><a href="#home">BOOK NOW</a></button>
+        </div>
+        <div class="info">
+            <div class="about">
+                <h3>About</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, iste. Quam rem deserunt dolorum non.</p>
+            </div>
+            <div class="rooms">
+                <h3>Rooms</h3>
+                <ul>
+                    <li><a href="#">Exclusive</a></li>
+                    <li><a href="#">Elite</a></li>
+                    <li><a href="#">Luxury</a></li>
+                    <li><a href="#">Premium</a></li>
+                </ul>
+            </div>
+            <div class="quick_links">
+                <h3>Quick links</h3>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <h3>Social</h3>
+                <div class="social_links">
+                    <a href="#"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter fa-xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest fa-xl"></i></a>
+                </div>
+            </div>
+            <div class="contact info_last">
+                <h3>Contact</h3>
+                <p>Teegra Groove 31 22, London.</p>
+                <p>+32 438 598 55</p>
+                <p>info@yourmail.com</p>
+            </div>
+        </div>
+    </div>
+    <footer>&copy; Copyright 2022</footer>
+</body>
+</html>

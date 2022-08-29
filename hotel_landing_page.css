@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@0;1&family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,700;1,400&family=Square+Peg&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    line-height: 1.5;
+}
+.tour h2, h3, h4{
+    font-family: 'Square Peg';
+    font-size: 32px;
+}
+#about h2{
+    font-family: 'Square Peg';
+    font-size: 40px;
+}
+header{
+    background-color: plum;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0px 5%;
+    position: fixed;
+    z-index: 3;
+}
+.icon{
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    border-bottom: 2px solid white;
+}
+.intro{
+    background-image:linear-gradient(115deg,  rgba(56, 56, 112, 0.8), rgba(30, 30, 138, 0.6)), url(/pictures/Header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 80px 50px 30px 50px;
+}
+.intro_text{
+    font-size: 32px;
+}
+form{
+    width: 90%;
+    margin: 70px auto;
+}
+.form_info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin-top:30px ;
+    width: 100px;
+    padding: 5px;
+    background-color: plum;
+    border: none;
+    color: white;
+}
+form div{
+    margin-right: 20px;
+}
+input{
+    width: 150px;
+    padding: 0 5px;
+}
+#about{
+    display: flex;
+    background-color: #fafafa;
+    width: 100%;
+    margin: 10px 0 20px 0;
+    height: 55vh;
+    max-height: 300px;
+}
+.about_text{
+    width: 50%;
+    height: 100%;
+    padding: 20px 0 30px 20px;
+}
+.about_image{
+    height: 100%;
+    width: 50%;
+}
+.about_image img{
+    width: 100%;
+    height: 100%;
+}
+.about_text button, .about_text p{
+    margin: unset;
+    margin: 10px 0;
+}
+.about_texttext{
+    width: 70%;
+}
+button a{
+    color: white;
+}
+.plum{
+    color: plum;
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 0;
+}
+.service{
+    width: 20%;
+    padding: 20px;
+    border: 1px solid gainsboro;
+    box-shadow: 5px 5px 2px gainsboro;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.service p{
+    margin-top: 10px;
+}
+.service:hover{
+    animation: hover forwards 1s;
+}
+@keyframes hover {
+    100%{
+        transform: translateY(-5px);
+    }
+}
+#virtual_tour{
+    width: 90%;
+    margin:20% auto;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tour{
+    width: 48%;
+    height: 50%;
+    border: 1px solid white;
+    position: relative;
+}
+.tour_photo{
+    width: 100%;
+    height:100%;
+}
+.tour_text{
+    width: 80%;
+    position: absolute;
+    z-index: 2;
+    bottom: 80%;
+    padding: 10px;
+    line-height: 1.5;
+    background-color: #fafafa;
+}
+.tour_text p{
+    margin-top: 5px;
+}
+.bottom_photo{
+    margin-top:40% ;
+}
+.bottom_text{
+    bottom: -10%;
+}
+.text_right{
+    left: 20%;
+}
+.dining{
+    background-image: url(/pictures/Casual\ dining.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: dining 20s infinite;
+}
+@keyframes dining {
+    20%{
+        background-image: url(/pictures/Casuall\ dining.jpg);
+    }
+    40%{
+        background-image: url(/pictures/Coperate\ Dining.jpg);
+    }
+    60%{
+        background-image: url(/pictures/Dining\ private.jpg);
+    }
+    80%{
+        background-image: url(/pictures/Group\ dining\ private.jpg);
+    }
+    100%{
+        background-image: url(/pictures/Group\ dining\ retreat.jpg);
+    }
+}
+.room{
+    background-image: url(/pictures/Indoor\ rooms.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: room 20s infinite;
+}
+@keyframes room {
+    20%{
+        background-image: url(/pictures/Indoor\ rooms\ view.jpg);
+    }
+    40%{
+        background-image: url(/pictures/Outdoor\ lounge.jpg);
+    }
+    60%{
+        background-image: url(/pictures/Outdoor\ rooms.jpg);
+    }
+    80%{
+        background-image: url(/pictures/Private\ area\ pool.jpg);
+    }
+    100%{
+        background-image: url(/pictures/Underwater\ rooms.jpg);
+    }
+}
+.spa{
+    background-image: url(/pictures/spa1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: spa 20s infinite;
+}
+@keyframes spa {
+    20%{background-image: url(/pictures/spa1.jpeg);}
+    40%{background-image: url(/pictures/Spa2.jpeg);}
+    60%{background-image: url(/pictures/Spa3.jpeg);}
+    80%{background-image: url(/pictures/Spa4.jpeg);}
+    100%{background-image: url(/pictures/Spa5.jpeg);}
+}
+.gym{
+    background-image: url(/pictures/Gym1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: gym 20s infinite;
+}
+@keyframes gym {
+    20%{background-image: url(/pictures/Gym1.jpeg);}
+    40%{background-image: url(/pictures/Gym2.jpeg);}
+    60%{background-image: url(/pictures/Gym3.jpeg);}
+    80%{background-image: url(/pictures/Gym4.jpeg);}
+    100%{background-image: url(/pictures/Gym3.jpeg);}
+}
+#blog{
+    background-color: #fafafa;
+    width: 100%;
+    padding: 15px;
+    margin: 340px 0 50px 0;
+    text-align: center;
+}
+.blog_text{
+    padding: 20px 0;
+}
+.review img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.reviews{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+}
+.review{
+    width: 34%;
+    padding: 20px;
+    text-align: center;
+}
+.review_right{
+    border-right: 1px solid plum;
+}
+.banner{
+    width: 100%;
+    height: 30vh;
+    background-image:linear-gradient(115deg,  rgba(56, 56, 112, 0.8), rgba(30, 30, 138, 0.6)), url(/pictures/Outdoor\ lounge.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.banner h2{
+    font-size: 32px;
+}
+h2{
+    display: inline;
+}
+.banner button{
+    margin-top: 20px;
+    color: black;
+}
+#contact{
+    background-color: rgb(30, 7, 46);
+    background-color: rgb(158, 114, 158);
+}
+.info ul{
+    display: unset;
+}
+.info{
+    width: 90%;
+    margin: 20px auto 0px auto;
+    display: flex;
+    padding-bottom: 10px;
+    gap: 30px;
+    color: white;
+}
+.rooms, .social{
+    width: 15%;
+    padding: 10px;
+}
+.about, .quick_links, .contact{
+    padding: 10px;
+    width: 20%;
+} 
+.social_links{
+    display: flex;
+    flex-direction: column;
+}
+.social_links a {
+    margin: 5px 0;
+}
+.info p{
+    margin: 10px 0 0 0;
+}
+.info li{
+    margin-top: 10px ;
+}
+.info a{
+    color: white;
+}
+.info_last{
+    border-right: none !important;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(158, 114, 158);
+}
