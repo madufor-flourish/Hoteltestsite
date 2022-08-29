@@ -51,7 +51,7 @@ a:hover{
     border-bottom: 2px solid white;
 }
 .intro{
-    background-image:linear-gradient(115deg,  rgba(56, 56, 112, 0.8), rgba(30, 30, 138, 0.6)), url(/pictures/Header.jpg);
+    background-image:linear-gradient(115deg,  rgba(56, 56, 112, 0.8), rgba(30, 30, 138, 0.6)), url(pictures/Header.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,7 +196,7 @@ button a{
     left: 20%;
 }
 .dining{
-    background-image: url(/pictures/Casual\ dining.jpg);
+    background-image: url(pictures/Casual\ dining.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -204,23 +204,23 @@ button a{
 }
 @keyframes dining {
     20%{
-        background-image: url(/pictures/Casuall\ dining.jpg);
+        background-image: url(pictures/Casuall\ dining.jpg);
     }
     40%{
-        background-image: url(/pictures/Coperate\ Dining.jpg);
+        background-image: url(pictures/Coperate\ Dining.jpg);
     }
     60%{
-        background-image: url(/pictures/Dining\ private.jpg);
+        background-image: url(pictures/Dining\ private.jpg);
     }
     80%{
-        background-image: url(/pictures/Group\ dining\ private.jpg);
+        background-image: url(pictures/Group\ dining\ private.jpg);
     }
     100%{
-        background-image: url(/pictures/Group\ dining\ retreat.jpg);
+        background-image: url(pictures/Group\ dining\ retreat.jpg);
     }
 }
 .room{
-    background-image: url(/pictures/Indoor\ rooms.jpg);
+    background-image: url(pictures/Indoor\ rooms.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -228,48 +228,48 @@ button a{
 }
 @keyframes room {
     20%{
-        background-image: url(/pictures/Indoor\ rooms\ view.jpg);
+        background-image: url(pictures/Indoor\ rooms\ view.jpg);
     }
     40%{
-        background-image: url(/pictures/Outdoor\ lounge.jpg);
+        background-image: url(pictures/Outdoor\ lounge.jpg);
     }
     60%{
-        background-image: url(/pictures/Outdoor\ rooms.jpg);
+        background-image: url(pictures/Outdoor\ rooms.jpg);
     }
     80%{
-        background-image: url(/pictures/Private\ area\ pool.jpg);
+        background-image: url(pictures/Private\ area\ pool.jpg);
     }
     100%{
-        background-image: url(/pictures/Underwater\ rooms.jpg);
+        background-image: url(pictures/Underwater\ rooms.jpg);
     }
 }
 .spa{
-    background-image: url(/pictures/spa1.jpeg);
+    background-image: url(pictures/spa1.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     animation: spa 20s infinite;
 }
 @keyframes spa {
-    20%{background-image: url(/pictures/spa1.jpeg);}
-    40%{background-image: url(/pictures/Spa2.jpeg);}
-    60%{background-image: url(/pictures/Spa3.jpeg);}
-    80%{background-image: url(/pictures/Spa4.jpeg);}
-    100%{background-image: url(/pictures/Spa5.jpeg);}
+    20%{background-image: url(pictures/spa1.jpeg);}
+    40%{background-image: url(pictures/Spa2.jpeg);}
+    60%{background-image: url(pictures/Spa3.jpeg);}
+    80%{background-image: url(pictures/Spa4.jpeg);}
+    100%{background-image: url(pictures/Spa5.jpeg);}
 }
 .gym{
-    background-image: url(/pictures/Gym1.jpeg);
+    background-image: url(pictures/Gym1.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     animation: gym 20s infinite;
 }
 @keyframes gym {
-    20%{background-image: url(/pictures/Gym1.jpeg);}
-    40%{background-image: url(/pictures/Gym2.jpeg);}
-    60%{background-image: url(/pictures/Gym3.jpeg);}
-    80%{background-image: url(/pictures/Gym4.jpeg);}
-    100%{background-image: url(/pictures/Gym3.jpeg);}
+    20%{background-image: url(pictures/Gym1.jpeg);}
+    40%{background-image: url(pictures/Gym2.jpeg);}
+    60%{background-image: url(pictures/Gym3.jpeg);}
+    80%{background-image: url(pictures/Gym4.jpeg);}
+    100%{background-image: url(pictures/Gym3.jpeg);}
 }
 #blog{
     background-color: #fafafa;
@@ -303,7 +303,7 @@ button a{
 .banner{
     width: 100%;
     height: 30vh;
-    background-image:linear-gradient(115deg,  rgba(56, 56, 112, 0.8), rgba(30, 30, 138, 0.6)), url(/pictures/Outdoor\ lounge.jpg);
+    background-image:linear-gradient(115deg,  rgba(56, 56, 112, 0.8), rgba(30, 30, 138, 0.6)), url(pictures/Outdoor\ lounge.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
