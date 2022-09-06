@@ -38,14 +38,18 @@ header{
 ul{
     display: flex;
     justify-content: space-around;
-    width: 400px;
+    width: 600px;
 }
 li{
     list-style: none;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    /* transition-duration: 0.5s; */
 }
 a:hover{
     border-bottom: 2px solid white;
@@ -152,20 +156,17 @@ button a{
     box-shadow: 5px 5px 2px gainsboro;
     text-align: center;
     display: flex;
+    border-radius: 5px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition-duration: 1s;
 }
 .service p{
     margin-top: 10px;
 }
 .service:hover{
-    animation: hover forwards 1s;
-}
-@keyframes hover {
-    100%{
-        transform: translateY(-5px);
-    }
+    transform: translateY(-15px);
 }
 #virtual_tour{
     width: 90%;
